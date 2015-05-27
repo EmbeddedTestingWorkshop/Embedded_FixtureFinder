@@ -1,7 +1,7 @@
 String.prototype.contains = function(it) { return this.indexOf(it) != -1; };
 
 var FixtureParser = function(){
-    var speacialTeams = ['AC Milan', 'Brommapojkarna', 'Celtic', 'Real Betis ', 'Union Berlin', 'RasenBallsport Leipzig', 'Chelsea'];
+    var speacialTeams = ['AC Milan', 'Brommapojkarna', 'Celtic', 'Real Betis ', 'Union Berlin', 'RasenBallsport Leipzig', 'Manchester United'];
 
     var getLocalKickOffTime = function(date, utcTime){
         if(utcTime.indexOf(":") > -1){
